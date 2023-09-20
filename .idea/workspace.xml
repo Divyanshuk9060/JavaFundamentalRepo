@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8e5ee17-32a7-4111-bf88-cc24dab05dc4" name="Changes" comment="Commit">
+    <list default="true" id="c8e5ee17-32a7-4111-bf88-cc24dab05dc4" name="Changes" comment="Commit Declare variables of other types">
+      <change afterPath="$PROJECT_DIR$/src/com/java/variables/DeclareMultipleVariable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java/variables/PrintVariables.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/java/variables/Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/variables/Variables.java" afterDir="false" />
     </list>
@@ -53,6 +55,7 @@
     <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="sortKey" value="BY_TIME_ASCENDING" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
@@ -111,14 +114,31 @@
       <option name="project" value="LOCAL" />
       <updated>1695217071514</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Commit Declare variables of other types">
+      <option name="closed" value="true" />
+      <created>1695218948001</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695218948001</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Commit Declare variables of other types">
+      <option name="closed" value="true" />
+      <created>1695219075797</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1695219075797</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Commit Package" />
     <MESSAGE value="Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
+    <MESSAGE value="Commit Declare variables of other types" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit Declare variables of other types" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

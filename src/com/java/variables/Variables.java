@@ -5,7 +5,7 @@ public class Variables {
         String name = "Divyanshu";
         System.out.println(name);
 
-        //Variable assign it the value 15:
+        //Variable assign the value
         int myNum = 10;
         System.out.println(myNum);
 
@@ -37,6 +37,7 @@ public class Variables {
 
         //Print all variable in multiple line without using (System.out.println) with the help of (\n)
         System.out.println( "Num : "+Num +'\n' + "myFloatNum : " + myFloatNum +'\n'+ "myLetter : " + myLetter +'\n'+ "myBool : " + myBool +'\n'+ "myText : " + myText);
+
 
 
 
