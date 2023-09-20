@@ -19,6 +19,26 @@ public class Variables {
         myNum2 = 60;  // myNum is now 60
         System.out.println(myNum2);
 
+        //Declare variables of other types:
+        int Num = 5;
+        float myFloatNum = 5.99f;
+        char myLetter = 'D';
+        boolean myBool = true;
+        String myText = "Hello";
+
+        System.out.println(Num);
+        System.out.println(myFloatNum);
+        System.out.println(myLetter);
+        System.out.println(myBool);
+        System.out.println(myText);
+
+        //Print all variable in single line
+        System.out.println( "Num : "+Num  + " myFloatNum : " + myFloatNum + " myLetter : " + myLetter + " myBool : " + myBool + " myText : " + myText);
+
+        //Print all variable in multiple line without "System.out.println"
+        System.out.println( "Num : "+Num +'\n' + "myFloatNum : " + myFloatNum +'\n'+ "myLetter : " + myLetter +'\n'+ "myBool : " + myBool +'\n'+ "myText : " + myText);
+
+
 
     }
 }
