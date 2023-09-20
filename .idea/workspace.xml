@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8e5ee17-32a7-4111-bf88-cc24dab05dc4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/method/Method.java" afterDir="false" />
+    <list default="true" id="c8e5ee17-32a7-4111-bf88-cc24dab05dc4" name="Changes" comment="Commit Package">
+      <change afterPath="$PROJECT_DIR$/src/com/java/variables/Variables.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java/method/Method.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/method/Method.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,11 +40,16 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2VZ20kj9p7YcKhNqsLdIthSlVUb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="compactDirectories" value="true" />
     <option name="flattenPackages" value="true" />
@@ -62,6 +67,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
@@ -83,7 +89,29 @@
       <option name="presentableId" value="Default" />
       <updated>1695029061810</updated>
     </task>
+    <task id="LOCAL-00001" summary="Commit Package">
+      <option name="closed" value="true" />
+      <created>1695214040231</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695214040231</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Commit Package">
+      <option name="closed" value="true" />
+      <created>1695216017680</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695216017680</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Commit Package" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit Package" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
