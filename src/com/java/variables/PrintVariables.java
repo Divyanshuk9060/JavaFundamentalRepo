@@ -12,7 +12,7 @@ public class PrintVariables {
         String fullName = firstName + lastName;
         System.out.println(fullName);
 
-        //For numeric values, the + character works as a mathematical operator
+        //For numeric values, the + character works as a mathematical operator:
         int x = 10;
         int y = 8;
         System.out.println(x + y); // Print the value of x + y
