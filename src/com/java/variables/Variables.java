@@ -32,7 +32,7 @@ public class Variables {
         System.out.println(myBool);
         System.out.println(myText);
 
-        //Print all variable in single line
+        //Print all variable in single line:
         System.out.println( "Num : "+Num  + " myFloatNum : " + myFloatNum + " myLetter : " + myLetter + " myBool : " + myBool + " myText : " + myText);
 
         //Print all variable in multiple line without using (System.out.println) with the help of (\n)
