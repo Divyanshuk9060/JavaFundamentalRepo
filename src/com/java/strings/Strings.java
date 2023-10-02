@@ -12,7 +12,7 @@ public class Strings {
 
         //There are many string methods available for Example:
         // *String length() method:
-        String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ is longest string";
         System.out.println("The length of the txt string is : " + txt.length()); //Output 26
 
         // *toUpperCase() and toLowerCase() method:
@@ -36,7 +36,7 @@ public class Strings {
         //3.public int indexOf(int char)
         //4.public int indexOf(int char, int fromIndex)
 
-        //1.public int indexOf(String str)
+        //1.indexOf(String str)
         //The substring you want to search for within the string.
         String sentence = "The colorful flowers in the garden added beauty and charm to the backyard.";
         System.out.println("Index of string 'the' : " + sentence.indexOf("the"));
@@ -53,15 +53,33 @@ public class Strings {
         //Output : Index of str 'the' starting from index 25 : 61
 
 
-        //3.public int indexOf(int char)
+        //3.indexOf(int char)
         String sentence2 = "The colorful flowers in the garden added beauty and charm to the backyard.";
         System.out.println("Index of Char 'o' : " + sentence2.indexOf('o'));
         //Output : Index of Char 'o' : 5
 
-        //4.public int indexOf(int char, int fromIndex)
+        //4.indexOf(int char, int fromIndex)
         String sentence3 = "The colorful flowers in the garden added beauty and charm to the backyard.";
         System.out.println("Index of char 'o' starting from index 6 : " + sentence3.indexOf('o',6));
         //Output : Index of char 'o' starting from index 6 : 7
+
+        // *The codePointAt() method returns the Unicode value of the character at the specified index in a string.
+        String myStr = "ABC";
+        String myStr1 = "abc";
+        System.out.println("Unicode of 'A' CodePointAt place of '0' : " + myStr.codePointAt(0)); //Output : 65
+        System.out.println("Unicode of 'a' place of '1' : " + myStr1.codePointAt(0)); //Output : 97
+
+        // *The codePointBefore() method returns the Unicode value of the character before the specified index in a string.
+        //The index of the first character is 1, the second character is 2, and so on.
+        String myStr2 = "AaBbCc";
+        System.out.println("Unicode of 'A' CodePointBefore place of '1' : " + myStr2.codePointBefore(1)); //Output : 65
+        System.out.println("Unicode of 'a' CodePointBefore place of '2' : " + myStr2.codePointBefore(2)); //Output : 97
+
+        //The codePointCount() method returns the number of Unicode values found in a string.
+        //Use the startIndex and endIndex parameters to specify where to begin and end the search.
+        String Str = "Hello";
+        int result = Str.codePointCount(0, 4);
+        System.out.println(result);
 
 
 
